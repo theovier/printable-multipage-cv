@@ -1,5 +1,6 @@
 <template>
 	<cover />
+	<letter />
 	<history />
 	<page>
 		<template #header>
@@ -10,6 +11,7 @@
 
 <script setup>
 import Cover from "@/views/pages/Cover.vue";
+import Letter from "@/views/pages/Letter.vue";
 import History from "@/views/pages/History.vue";
 import Page from "@/views/pages/Page.vue";
 import PageHeader from "@/components/headers/PageHeader.vue";

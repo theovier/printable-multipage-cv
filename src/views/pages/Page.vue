@@ -1,5 +1,5 @@
 <template>
-	<div class="my-16 break-after-page">
+	<div class="my-20 break-after-page">
 		<slot name="header" />
 		<div class="mx-24">
 			<slot />
