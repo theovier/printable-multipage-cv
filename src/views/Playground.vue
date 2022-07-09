@@ -1,7 +1,6 @@
 <template>
 	<container>
 		<section-header headline="Lebenslauf" />
-		playground
 	</container>
 </template>
 
