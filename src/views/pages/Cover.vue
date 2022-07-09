@@ -1,6 +1,8 @@
 <template>
 	<page>
-		<page-header headline="Cover" />
+		<template #header>
+			<page-header headline="Cover" />
+		</template>
 	</page>
 </template>
 

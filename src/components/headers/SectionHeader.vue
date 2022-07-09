@@ -1,5 +1,5 @@
 <template>
-	<div class="mx-24 mt-10 mb-5">
+	<div class="mt-10 mb-5">
 		<h2 class="ml-1 text-lg text-blue-400">
 			{{ text }}
 		</h2>

@@ -2,7 +2,9 @@
 	<cover />
 	<history />
 	<page>
-		<page-header headline="Sonstiges" />
+		<template #header>
+			<page-header headline="Sonstiges" />
+		</template>
 	</page>
 </template>
 
