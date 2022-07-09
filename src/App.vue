@@ -1,7 +1,7 @@
 <script setup>
-import HelloWorld from "./components/HelloWorld.vue";
+import Playground from "@/views/Playground.vue";
 </script>
 
 <template>
-	<hello-world />
+	<playground />
 </template>
