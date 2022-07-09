@@ -1,51 +1,24 @@
 <template>
 	<page>
 		<template #header>
-			<page-header headline="Bewerbung als Software-Entwickler" />
+			<div class="space-y-16">
+				<letter-header
+					company="My Company"
+					street="Goethe Straße 11"
+					postal="60010 Tel Aviv"
+					date="10.07.2022"
+					place="Münster"
+				/>
+				<page-header headline="Bewerbung als Software-Entwickler" />
+			</div>
 		</template>
-		<div class="mt-28 space-y-8 text-sm">
-			<div class="space-y-8">
-				<div>Sehr geehrte Damen und Herren,</div>
-				<div class="space-y-2">
-					<p>
-						leverage agile frameworks to provide a robust synopsis
-						for high level overviews. Iterative approaches to
-						corporate strategy foster collaborative thinking to
-						further the overall value proposition.
-					</p>
-					<p>
-						Organically grow the holistic world view of disruptive
-						innovation via workplace diversity and empowerment.
-						Bring to the table win-win survival strategies to ensure
-						proactive domination.
-					</p>
-					<p>
-						At the end of the day, going forward, a new normal that
-						has evolved from generation X is on the runway heading
-						towards a streamlined cloud solution. User generated
-						content in real-time will have multiple touchpoints for
-						offshoring.
-					</p>
-					<p>
-						Capitalize on low hanging fruit to identify a ballpark
-						value added activity to beta test. Override the digital
-						divide with additional clickthroughs from DevOps.
-						Nanotechnology immersion along the information highway
-						will close the loop on focusing solely on the bottom
-						line.
-					</p>
-				</div>
-			</div>
-			<div class="space-y-6">
-				<div>Mit freundlichen Grüßen</div>
-				<img src="src/assets/signature.png" class="mt-2 h-10" />
-				<div>Herbert Testoramus</div>
-			</div>
-		</div>
+		<letter-body />
 	</page>
 </template>
 
 <script setup>
 import Page from "@/views/pages/Page.vue";
 import PageHeader from "@/components/headers/PageHeader.vue";
+import LetterHeader from "@/components/headers/LetterHeader.vue";
+import LetterBody from "@/components/letter/Body.vue";
 </script>
