@@ -6,5 +6,5 @@
 
 <script setup>
 import Page from "@/views/pages/Page.vue";
-import SectionHeader from "@/components/SectionHeader.vue";
+import SectionHeader from "@/components/PageHeader.vue";
 </script>
