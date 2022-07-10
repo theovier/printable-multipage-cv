@@ -8,21 +8,23 @@
 				from="08/2017"
 				to="08/2018"
 				title="Some Job Title"
-				description="Doing stuff as usual, Germany"
-			/>
+			>
+				Doing stuff as usual, Germany
+			</entry>
 			<entry from="08/2017" to="08/2018" title="Arbeitssuchend" />
 			<entry
 				v-for="i in 3"
 				from="08/2017"
 				to="08/2018"
 				title="Some Job Title"
-				description="Doing stuff as usual, Germany"
-			/>
+			>
+				Doing stuff as usual, Germany
+			</entry>
 		</div>
 	</div>
 </template>
 
 <script setup>
 import SectionHeader from "@/components/headers/SectionHeader.vue";
-import Entry from "@/components/history/HistoryEntry.vue";
+import Entry from "@/components/common/HistoryEntry.vue";
 </script>
