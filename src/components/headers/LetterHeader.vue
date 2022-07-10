@@ -1,5 +1,5 @@
 <template>
-	<div class="mx-24 flex justify-between text-sm">
+	<div class="mx-24 flex items-end justify-between text-sm">
 		<div>
 			<div>{{ company }}</div>
 			<div>{{ department }}</div>

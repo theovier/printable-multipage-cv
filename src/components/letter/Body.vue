@@ -1,5 +1,5 @@
 <template>
-	<div class="mt-28 space-y-8 text-sm">
+	<div class="mt-20 space-y-8 text-sm">
 		<div class="space-y-8">
 			<div>Sehr geehrte Damen und Herren,</div>
 			<div class="space-y-2">
