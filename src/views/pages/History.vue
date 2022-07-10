@@ -3,7 +3,7 @@
 		<template #header>
 			<page-header headline="Lebenslauf" />
 		</template>
-		<section-header text="Beruflicher Werdegang" />
+		<section-header text="Arbeitserfahrung" />
 		<div class="space-y-8">
 			<entry
 				v-for="i in 5"
