@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<section-header text="Personal Skills" />
-		<div class="space-y-2">
+		<div class="space-y-8">
 			<entry name="Drivers Licence" content="Klasse B" />
 			<entry name="Language Proficiency" content="TODO: Slot here" />
 		</div>
