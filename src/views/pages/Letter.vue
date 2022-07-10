@@ -4,6 +4,8 @@
 			<div class="space-y-16">
 				<letter-header
 					company="My Company"
+					department="Human Resource Department"
+					contact="Ms. Alice Wonderland"
 					street="Goethe Straße 11"
 					postal="60010 Tel Aviv"
 					date="10.07.2022"
