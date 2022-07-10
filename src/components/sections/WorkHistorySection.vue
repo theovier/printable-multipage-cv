@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<section-header text="Arbeitserfahrung" />
-		<div class="space-y-8">
+		<entry-list>
 			<entry from="09/2018" to="today" title="Arbeitssuchend" />
 			<entry
 				v-for="i in 2"
@@ -20,11 +20,12 @@
 			>
 				Doing stuff as usual, Germany
 			</entry>
-		</div>
+		</entry-list>
 	</div>
 </template>
 
 <script setup>
 import SectionHeader from "@/components/headers/SectionHeader.vue";
+import EntryList from "@/components/common/EntryList.vue";
 import Entry from "@/components/common/HistoryEntry.vue";
 </script>

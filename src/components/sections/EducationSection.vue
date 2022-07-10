@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<section-header text="Education" />
-		<div class="space-y-8">
+		<entry-list>
 			<entry from="10/2020" title="Paderborn University">
 				Computer Science Student, M.Sc.
 			</entry>
@@ -20,11 +20,12 @@
 				<p>Saving the World and Stuff</p>
 				<p>(Abschlussnote: 1.3)</p>
 			</entry>
-		</div>
+		</entry-list>
 	</div>
 </template>
 
 <script setup>
 import SectionHeader from "@/components/headers/SectionHeader.vue";
+import EntryList from "@/components/common/EntryList.vue";
 import Entry from "@/components/common/HistoryEntry.vue";
 </script>
