@@ -8,6 +8,9 @@
 			<div class="">
 				{{ description }}
 			</div>
+			<div>
+				{{ addition }}
+			</div>
 		</div>
 	</div>
 </template>
@@ -15,8 +18,9 @@
 <script setup>
 defineProps({
 	from: { type: String, required: true },
-	to: { type: String, default: "heute" },
-	title: { type: String, default: "Globex Corporation" },
+	to: { type: String, default: "today" },
+	title: { type: String, default: "" },
 	description: { type: String, default: "" },
+	addition: { type: String, default: "" },
 });
 </script>
