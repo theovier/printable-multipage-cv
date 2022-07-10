@@ -5,8 +5,8 @@
 				<letter-header
 					company="My Company"
 					department="Human Resource Department"
-					contact="Ms. Alice Wonderland"
-					street="Goethe Straße 11"
+					contact="Mr. Sherlock Holmes"
+					street="Baker Street 221B"
 					postal="60010 Tel Aviv"
 					date="10.07.2022"
 					place="Münster"
