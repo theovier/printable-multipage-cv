@@ -1,7 +1,7 @@
 <template>
 	<div class="flex justify-between text-sm">
 		<div class="w-full">{{ from }} <span>&#8212;</span> {{ to }}</div>
-		<div class="w-full">
+		<div class="mr-10 w-full">
 			<div class="font-semibold">
 				{{ title }}
 			</div>
