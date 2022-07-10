@@ -3,14 +3,14 @@
 		<template #header>
 			<page-header headline="Lebenslauf" />
 		</template>
-		<work-history />
-		<skills />
+		<personal />
+		<education />
 	</page>
 </template>
 
 <script setup>
 import Page from "@/views/pages/Page.vue";
 import PageHeader from "@/components/headers/PageHeader.vue";
-import WorkHistory from "@/components/sections/WorkHistorySection.vue";
-import Skills from "@/components/sections/SkillsSection.vue";
+import Personal from "@/components/sections/PersonalSection.vue";
+import Education from "@/components/sections/EducationSection.vue";
 </script>
