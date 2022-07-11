@@ -2,7 +2,7 @@
 	<div>
 		<section-header text="Experience" />
 		<entry-list>
-			<entry from="09/2018" to="today" title="Arbeitssuchend" />
+			<entry from="09/2018" to="today" title="Seeking Employment" />
 			<entry
 				v-for="i in 2"
 				from="08/2017"
@@ -11,12 +11,12 @@
 			>
 				Doing stuff as usual, Germany
 			</entry>
-			<entry from="08/2017" to="08/2018" title="Arbeitssuchend" />
+			<entry from="08/2017" to="08/2018" title="Seeking Employment" />
 			<entry
 				v-for="i in 3"
 				from="08/2017"
 				to="08/2018"
-				title="Some Job Title"
+				title="Some Other Awesome Job Title"
 			>
 				Doing stuff as usual, Germany
 			</entry>

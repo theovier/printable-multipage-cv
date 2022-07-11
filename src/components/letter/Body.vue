@@ -1,7 +1,7 @@
 <template>
 	<div class="mt-20 space-y-8 text-sm">
 		<div class="space-y-8">
-			<div>Sehr geehrte Damen und Herren,</div>
+			<div>Dear Mr. Placeholder,</div>
 			<div class="space-y-2">
 				<p>
 					leverage agile frameworks to provide a robust synopsis for
@@ -44,7 +44,7 @@
 				</p>
 			</div>
 		</div>
-		<signature author="John Doe" valediction="Mit freundlichen Grüßen" />
+		<signature author="John Doe" />
 	</div>
 </template>
 

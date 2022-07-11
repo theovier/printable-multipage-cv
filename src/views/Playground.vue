@@ -5,7 +5,7 @@
 	<interests />
 	<page>
 		<template #header>
-			<page-header headline="Sonstiges" />
+			<page-header headline="Miscellaneous" />
 		</template>
 	</page>
 </template>

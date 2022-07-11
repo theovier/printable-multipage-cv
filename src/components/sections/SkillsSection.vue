@@ -2,7 +2,9 @@
 	<div>
 		<section-header text="Personal Skills" />
 		<entry-list>
-			<entry cue="Drivers Licence">Klasse B</entry>
+			<entry cue="Drivers Licence"
+				>German Driver's Licence (Class B)</entry
+			>
 			<entry cue="Language Proficiency">
 				<div>English (CEF-Level C1)</div>
 				<div>Spanish (CEF-Level B2)</div>

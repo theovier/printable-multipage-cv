@@ -7,7 +7,7 @@
 			<div>{{ street }}</div>
 			<div>{{ postal }}</div>
 		</div>
-		<div>{{ place }}, den {{ date }}</div>
+		<div>{{ place }}, the {{ date }}</div>
 	</div>
 </template>
 

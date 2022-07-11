@@ -11,7 +11,7 @@
 					date="10.07.2022"
 					place="Münster"
 				/>
-				<page-header headline="Bewerbung als Software-Entwickler" />
+				<page-header headline="Application as Software Developer" />
 			</div>
 		</template>
 		<letter-body />
