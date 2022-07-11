@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<section-header text="Arbeitserfahrung" />
+		<section-header text="Experience" />
 		<entry-list>
 			<entry from="09/2018" to="today" title="Arbeitssuchend" />
 			<entry

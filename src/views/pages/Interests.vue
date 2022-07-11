@@ -1,7 +1,7 @@
 <template>
 	<page>
 		<template #header>
-			<page-header headline="Lebenslauf" />
+			<page-header headline="Curriculum Vitae" />
 		</template>
 		<hobby />
 	</page>

@@ -1,5 +1,4 @@
 <template>
-	<cover />
 	<letter />
 	<education />
 	<history />
@@ -12,7 +11,6 @@
 </template>
 
 <script setup>
-import Cover from "@/views/pages/Cover.vue";
 import Letter from "@/views/pages/Letter.vue";
 import History from "@/views/pages/History.vue";
 import Education from "@/views/pages/Education.vue";
