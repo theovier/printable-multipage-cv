@@ -55,18 +55,18 @@ After adjusting the printing settings, simply print the website as PDF.
 Adding a new page with new entries can be achieved by a few lines of code: 
 
 ```vue
-	<page>
-        <template #header>
-			<!-- the headline of the page (big and blue 🐋) -->
-	        <page-header headline="New Page And Stuff" />
-        </template>
-        
-        <!-- the small blue captions on the page -->
-		<section-header text="Experience" />
+<page>
+    <template #header>
+        <!-- the headline of the page (big and blue 🐋) -->
+        <page-header headline="New Page And Stuff" />
+    </template>
+    
+    <!-- the small blue captions on the page -->
+    <section-header text="Experience" />
 
-		<!-- a list of key-value entries -->
-        <entry-list>
-            <history-entry from="08/2017" to="08/2018" title="This Prints on the Right" />
-        </entry-list>
-    </page>
+    <!-- a list of key-value entries -->
+    <entry-list>
+        <history-entry from="08/2017" to="08/2018" title="This Prints on the Right" />
+    </entry-list>
+</page>
 ```
