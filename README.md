@@ -1,12 +1,11 @@
 # Printable Multi-Page CV 
 
 Most CVs in Germany contain multiple pages and not only one.
-This repository provides a simple multi-page CV template which can be printed as PDF.
+This repository provides a simple multi-page HTML/CSS CV template which can be printed as PDF.
 It is not very complex and, therefore, easy to adjust.
-After all, the project is work-in-progress and may be subject to change in the future.
+⚠ After all, the project is work-in-progress and may be subject to change in the future ⚠. 
 
 ![printing-dialogue-chrome](examples/screenshots/cover-letter.png "Cover Letter Example")
-
 
 ## Features
 
@@ -16,7 +15,7 @@ After all, the project is work-in-progress and may be subject to change in the f
 
 ## Design
 
-The design is minimalistic yet stylish.
+The design is minimalistic yet stylish 🔥.
 However, the design does not feel very "modern". 
 At the moment we are looking into ways to modernize the design.
 An example PDF can be found under `/examples/example.pdf`.
