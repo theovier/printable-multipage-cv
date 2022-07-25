@@ -5,9 +5,6 @@
 			<entry from="10/2020" title="Paderborn University">
 				Computer Science Student, M.Sc.
 			</entry>
-			<entry from="08/2018" to="08/2020">
-				Scholarship Deutschlandstipendium
-			</entry>
 			<entry from="10/2016" to="03/2018" title="Wonderland University">
 				<p>Student of the Really Long Name Stuff Stuff Stuff Stuff.</p>
 				<p>(Abschlussnote: 1.0)</p>
