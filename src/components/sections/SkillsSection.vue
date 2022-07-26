@@ -6,9 +6,20 @@
 				>German Driver's Licence (Class B)</entry
 			>
 			<entry cue="Language Proficiency">
-				<div>English (CEF-Level C1)</div>
-				<div>Spanish (CEF-Level B2)</div>
-				<div>Advanced proficiency certificate in Latin</div>
+				<div class="space-y-2">
+					<div>
+						<div class="font-semibold">English</div>
+						<div>CEF-Level C1</div>
+					</div>
+					<div>
+						<div class="font-semibold">Spanish</div>
+						<div>CEF-Level B2</div>
+					</div>
+					<div>
+						<div class="font-semibold">Latin</div>
+						<div>Advanced proficiency certificate</div>
+					</div>
+				</div>
 			</entry>
 		</entry-list>
 	</div>
