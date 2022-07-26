@@ -5,6 +5,18 @@
 			<entry cue="Drivers Licence"
 				>German Driver's Licence (Class B)</entry
 			>
+			<entry cue="Programming">
+				<div class="space-y-2">
+					<div>
+						<div class="font-semibold">Good Knowledge</div>
+						<div>Git, Java, JavaScript (especially vue.js), HTML5, TailwindCSS</div>
+					</div>
+					<div>
+						<div class="font-semibold">Solid Knowledge</div>
+						<div>Python and Kotlin</div>
+					</div>
+				</div>
+			</entry>
 			<entry cue="Language Proficiency">
 				<div class="space-y-2">
 					<div>
