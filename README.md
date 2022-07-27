@@ -41,6 +41,13 @@ In order to generate and print the CV, the dependencies have to be installed:
 npm install
 ```
 
+The CV relies on personal data which is provided by an `.env` file.
+In order to supply your own personal data, copy the `.env.example` file and rename as `.env`:
+
+```
+cp .env.example .env
+```
+
 Afterwards, the Vite webserver can be started with 
 
 ```
