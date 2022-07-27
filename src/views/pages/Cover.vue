@@ -8,28 +8,28 @@
 		<div class="mt-20">
 			<div class="flex justify-around">
 				<div class="">
-					<div class="text-2xl text-slate-700 font-semibold">John Doe Longname</div>
+					<div class="text-2xl text-slate-700 font-semibold">{{ name }}</div>
 					<div class="mt-8 space-y-6">
 						<div class="flex items-center space-x-4">
 							<font-awesome-icon icon="envelope" class="text-lg text-blue-400" />
-							<div>john@example.com</div>
+							<div>{{ email }}</div>
 						</div>
 						<div class="flex items-center space-x-4">
 							<font-awesome-icon :icon="['fab', 'github']" class="text-lg text-blue-400" />
-							<div>@theovier</div>
+							<div>{{ github }}</div>
 						</div>
 						<div class="flex items-center space-x-4">
 							<font-awesome-icon icon="phone" class="text-lg text-blue-400"/>
-							<div>0123 / 456 789</div>
+							<div>{{ phone }}</div>
 						</div>
 						<div>
 							<div class="flex items-center space-x-4">
 								<font-awesome-icon icon="home" class="text-lg text-blue-400"/>
-								<div>Bakerstreet 221b</div>
+								<div>{{ street }}</div>
 							</div>
 							<div class="flex items-center space-x-4">
 								<font-awesome-icon icon="home" class="text-lg invisible"/>
-								<div>12345 London</div>
+								<div>{{ city }}</div>
 							</div>
 						</div>
 					</div>
@@ -51,6 +51,13 @@
 <script setup>
 import Page from "@/views/pages/Page.vue";
 import PageHeader from "@/components/headers/PageHeader.vue";
+
+const name = import.meta.env.VITE_FULL_NAME;
+const email = import.meta.env.VITE_EMAIL;
+const github = import.meta.env.VITE_GITHUB;
+const phone = import.meta.env.VITE_PHONE;
+const street = import.meta.env.VITE_ADDRESS_STREET;
+const city = import.meta.env.VITE_ADDRESS_CITY;
 </script>
 
 <style scoped>
