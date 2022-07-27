@@ -5,7 +5,8 @@ This repository provides a simple multi-page HTML/CSS CV template which can be p
 It is not very complex and, therefore, easy to adjust.
 ⚠ After all, the project is work-in-progress and may be subject to change in the future ⚠. 
 
-![printing-dialogue-chrome](examples/screenshots/cover-letter.png "Cover Letter Example")
+![cover](examples/screenshots/cover.png "Cover")
+![cover-letter](examples/screenshots/cover-letter.png "Cover Letter Example")
 
 ## Features
 
