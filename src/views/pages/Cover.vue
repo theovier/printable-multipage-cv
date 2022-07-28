@@ -2,7 +2,7 @@
 	<page>
 		<template #header>
 			<div class="h-16"/>
-			<page-header headline="Application" />
+			<page-header :headline="headline" />
 		</template>
 
 		<div class="mt-20">
@@ -52,6 +52,7 @@
 import Page from "@/views/pages/Page.vue";
 import PageHeader from "@/components/headers/PageHeader.vue";
 
+const headline = import.meta.env.VITE_COVER_LETTER_HEADLINE;
 const name = import.meta.env.VITE_FULL_NAME;
 const email = import.meta.env.VITE_EMAIL;
 const github = import.meta.env.VITE_GITHUB;
