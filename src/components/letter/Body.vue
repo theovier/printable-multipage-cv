@@ -44,10 +44,12 @@
 				</p>
 			</div>
 		</div>
-		<signature author="John Doe" />
+		<signature :author="name" />
 	</div>
 </template>
 
 <script setup>
 import Signature from "@/components/letter/Signature.vue";
+
+const name = import.meta.env.VITE_FULL_NAME;
 </script>
